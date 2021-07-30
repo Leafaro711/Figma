@@ -67,20 +67,29 @@ header{
 
 .header__list{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-flow: row wrap;
   align-items: center;
+  justify-content: flex-start;
   }
+
 .header__item:hover, .header__item:focus, .header__item:active{
   opacity: 0.75;
 }
 
 .header__item{
-  margin-right: 37px;
+  padding-left: 25px;
   font-size: 14px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.space {
+  flex-grow: 1;
+}
+.cart {
+  margin-right: 45px;
+}
+
 .btn{
     background: url(./icon/CTA.png);    
     width: 211px;
