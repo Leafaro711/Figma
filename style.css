@@ -465,3 +465,159 @@ color: #FFFFFF;
   width: 324px;
   height: 280px;
 }
+
+.gallery{
+  background: #FFFFFF;
+  width: 1020px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.gallery__wrapper{
+  max-width: 846px;
+  margin: 0 auto;
+}
+
+.gallery-logo{
+  padding-top: 100px;
+}
+
+.gallery__header{
+  margin-bottom: 55px;
+}
+
+.gallery__buttons{
+    margin-bottom: 50px;
+
+}
+
+.gallery__image{
+  width: 846px;
+  height: 480px;
+  background-image: url(./img/Image.png);
+}
+
+.gallery__image-live{
+  padding-left: 764px;
+  padding-top: 20px;
+}
+
+
+.customers{
+  padding-top: 120px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.customers__header{
+  max-width: 324px;
+}
+
+.customers__info{
+  width: 324px;
+  height: 340px;
+  background: white;
+  padding: 45px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.customers__image{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #02133C;
+    padding-top: 35px;
+
+}
+
+
+.impact{
+  background: url(./img/impactBG.png) no-repeat center;
+  width: 1440px;
+  height: 607.12px;
+  margin: 0 auto;
+  margin-top: 1500px;
+}
+
+.impact__wrapper{
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.impact__header{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #D5D5D5;
+  padding-top: 111.85px;
+}
+
+.impact__h2{
+  font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: #FFFFFF;
+width: 411px; 
+height: 84px;
+}
+
+.impact__wrapper-1{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.impact__stat-block{
+  max-width: 237px;
+}
+
+.Impact__stat-stats{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: #C40B0B;
+}
+
+.impact__stat-info{
+  font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+color: #F5F5F5;
+}
+
+.impact__stat{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.impact__button{
+  width: 1020px;
+  height: 150px;
+  background: white;
+  margin-top: 100px;
+  padding: 70px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer{
+  padding-top: 120px;
+  margin: 0 auto;
+  width: 1440px;
+}
