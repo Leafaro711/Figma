@@ -383,9 +383,9 @@ color: #4B4B4B;
   color: #02133C;
   }
 
-.form_main{
+.form__main{
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: space-between;
   width: 470px;
   height: 320px;
